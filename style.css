@@ -1,0 +1,134 @@
+body {
+  background-image: url('background1.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.content {
+  text-align: center;
+  font-weight: bold;
+  font-family: "roboto", sans-serif;
+  margin-top: -20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+header {
+  text-align: center;
+  font-weight: bold;
+  font-family: "roboto", sans-serif;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.webname {
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.logo-container {
+  text-align: center;
+  margin-top: -20px;
+}
+
+.logo-bulat {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.logo-mommyhana {
+    width: 150px; /* Ubah kepada saiz yang diinginkan untuk gambar baru */
+  height: auto; /* Menjaga nisbah aspek */
+  margin-top: 50px; /* Tambah ruang atas jika perlu */
+  border-radius: 30px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.content p {
+  margin-top: -20px;
+  color: white;
+}
+  /* From Uiverse.io by barisdogansutcu */ 
+.my-button {
+ position: relative;
+ overflow: hidden;
+ outline: none;
+ cursor: pointer;
+ border-radius: 50px;
+ background-color: hsl(255deg 50% 40%);
+ border: solid 4px hsl(50deg 100% 50%);
+ font-family: inherit;
+ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.default-btn,.hover-btn {
+ background-color: hsl(255deg 50% 40%);
+ display: -webkit-box;
+ display: -moz-box;
+ display: -ms-flexbox;
+ display: -webkit-flex;
+ display: flex;
+ align-items: center;
+ gap: 15px;
+ padding: 15px 20px;
+ border-radius: 50px;
+ font-size: 17px;
+ font-weight: 500;
+ text-transform: uppercase;
+ transition: all .3s ease;
+ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hover-btn {
+ position: absolute;
+ inset: 0;
+ background-color: hsl(255deg 50% 49%);
+ transform: translate(0%,100%);
+ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+button:hover .default-btn {
+ transform: translate(0%,-100%);
+}
+
+.logo-container
+
+.slider {
+  width: 60%;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.slide {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide img {
+  width: 100%;
+  /* Lebar imej dalam slide */
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.footer-content {
+  font-family: "roboto", sans-serif;
+  text-align: center;
+  color: black !important;
+  /* Menjamin warna teks hitam */
+  padding: 20px;
+}
+
+.footer-icons {
+  margin-top: 10px;
+}
+
+.footer-icons .icon {
+  width: 20px;
+  margin: 0 10px;
+}
